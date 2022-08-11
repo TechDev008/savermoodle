@@ -41,7 +41,7 @@ async def messages_control(c: Client, m: Message):
 		return
 	
 	if msg == '/start':
-		await m.reply('Bienvenido @'+usern+' 👋\n')
+		await m.reply('Bienvenido @'+usern+' 👋.\n\n Comandos:\n - /auth [user] [pass] [host] \n -/proxy [proxy]')
 		return
 			
 	if msg.startswith('/auth'):
