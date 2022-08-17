@@ -34,7 +34,7 @@ async def messages_control(c: Client, m: Message):
 	if msg is None:
 		msg = ''
 		
-	if usern == useradm or usern == useradm2 or usern == useradm3 or usern == "@Marquez_tg":
+	if usern == useradm or usern == useradm2 or usern == useradm3 or usern == "Marquez_tg":
 		pass
 	else:
 		await m.reply('Usted no tiene acceso.')
